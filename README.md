@@ -5,20 +5,12 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+1. Install mongodb from https://docs.mongodb.com/manual/installation/
 
-* System dependencies
+2. After mongodb is installed , change the connecetion details as per your mongodb server in mongoid.yml
 
-* Configuration
+3. run bundle exec rake db:create
 
-* Database creation
+4. start the rails server.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+5. The map will occur. It has option to create polygon and it gets stored in mongo database.
